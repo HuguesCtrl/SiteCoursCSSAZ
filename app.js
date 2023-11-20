@@ -6,12 +6,14 @@ logoMenu.addEventListener("click", () => {
   if (ul.className === "") {
     ul.className += "responsive";
     logoMenu.style.width = "30px";
-    logoMenu.style.top = "5px";
+    logoMenu.style.top = "20px";
+    logoMenu.style.right = "30px";
     logoMenu.src = "./ressources/close.png";
   } else {
     ul.className = "";
     logoMenu.style.width = "30px";
-    logoMenu.style.top = "13px";
+    logoMenu.style.top = "20px";
+    logoMenu.style.right = "30px";
     logoMenu.src = "./ressources/menu-icon.png";
   }
 });
